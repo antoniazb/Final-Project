@@ -1,0 +1,112 @@
+
+/*Mockup background and device frame*/
+
+.browser-screen {
+  background: white;
+  background-image: url("../images/blurry-purples.jpg");
+  margin: 0px;
+  height: 100vh;
+}
+
+.device {
+  background-image: url(../images/iphone.png);
+  margin: auto;
+}
+
+.device-screen {
+  margin: auto;
+  position: relative;
+  background-image: url("../images/wave-back.png");
+  background-size: cover;
+}
+
+/*Mockup with phone frame for medium to large screens*/
+
+@media (min-width: 600px) {
+
+  .browser-screen {
+    padding: 10px;
+    /*display: flex;*/
+    /*align-items: center;
+    justify-content: center;*/
+  }
+
+  .device {
+      height: 657px;
+      width: 329px;
+      padding-top: 20px;
+      margin-top: 30px;
+  }
+  .device-screen {
+      height: 503px;
+      width: 285px;
+      border: 1px solid lightgray;
+      border-radius: 3px;
+      margin-top: 56px;
+      overflow: scroll;
+
+  }
+
+  .content {
+    padding: 10px;
+  }
+}
+
+/*Fullscreen mockup to view on phones*/
+
+@media (max-width: 600px) {
+
+  .browser-screen {
+    background: white;
+  }
+
+  .device-screen {
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+}
+
+
+/*----------------------*/
+/*UI Content*/
+
+a {
+    color: white;
+    padding: 0 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.top-bar {
+  height: 60px;
+  background: #ffffff;
+  border-bottom: 1px solid lightgray;
+}
+
+.lower-bar {
+  background: #ffffff;
+  border-top: 5px solid #eeeeee;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+}
+
+h1 {
+  margin-bottom: 40px;
+  color: #5536b6;
+  font-size: 32px;
+  text-align: center;
+  font-family:
+}
