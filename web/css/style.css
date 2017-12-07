@@ -16,7 +16,8 @@
 .device-screen {
   margin: auto;
   position: relative;
-  background-image: url("../images/wave-back.png");
+  /*background-image: url("../images/simple-wave.png");*/
+    background-image: url("../images/background-wave.jpg");
   background-size: cover;
 }
 
@@ -43,7 +44,7 @@
       border: 1px solid lightgray;
       border-radius: 3px;
       margin-top: 56px;
-      overflow: scroll;
+      /*overflow: scroll;*/
 
   }
 
@@ -87,26 +88,46 @@ img {
 }
 
 .top-bar {
-  height: 60px;
+  height: 35px;
   background: #ffffff;
   border-bottom: 1px solid lightgray;
 }
 
 .lower-bar {
   background: #ffffff;
-  border-top: 5px solid #eeeeee;
+  border-top: 1px solid lightgray;
   width: 100%;
-  height: 70px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   position: absolute;
   bottom: 0;
+  padding: 7px 20px 3px 3px;
+  /*What is happening here? with padding right?*/
 }
 
 h1 {
   margin-bottom: 40px;
+  margin-top: 20px;
   color: #5536b6;
-  font-size: 32px;
+  font-size: 28px;
   text-align: center;
-  font-family:
+  font-family: 'Oxygen', sans-serif;
+}
+
+.main-cup {
+  width: 50%;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.nav-icon {
+  width: 15%;
+  padding-top: 3px;
+}
+
+.center-icon {
+  /*padding-left: 20px;
+  padding-right: 30px;
+  display: inline;*/
 }
