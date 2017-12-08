@@ -32,7 +32,7 @@
 @media (min-width: 600px) {
 
   .browser-screen {
-    padding: 10px;
+    /*padding: 10px;*/
     /*display: flex;*/
     /*align-items: center;
     justify-content: center;*/
@@ -42,7 +42,7 @@
       height: 657px;
       width: 329px;
       padding-top: 20px;
-      margin-top: 30px;
+      margin-top: 10px;
   }
 
   .device-screen {
@@ -222,7 +222,7 @@ h2, h3 {
   border: 5px solid white;
   border-radius: 100px;
   width: 150px;
-  margin: auto;
+  margin: 10px 50px 20px 50px;
 }
 
 /*Progress page*/
@@ -247,4 +247,19 @@ h2, h3 {
  hr {
    border: 1px solid white;
    color: white;
+ }
+
+ /*Welcome*/
+
+ .gradient-wave {
+   background-image: url(../images/gradient-wave.png)
+ }
+
+ .brand-title {
+   color: #4aa9bf;
+   text-transform: uppercase;
+ }
+
+ .white-background {
+   background: white;
  }
