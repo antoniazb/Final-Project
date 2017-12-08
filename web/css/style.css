@@ -21,6 +21,12 @@
   background-size: cover;
 }
 
+.purple {
+  color: gray;
+  background-color: #e3e3f2;
+  background-image: none !important;
+}
+
 /*Mockup with phone frame for medium to large screens*/
 
 @media (min-width: 600px) {
@@ -72,6 +78,10 @@
     padding: 10px;
   }
 
+  h1 {
+    font-size: 100px;
+  }
+
 }
 
 
@@ -87,12 +97,13 @@ a {
 img {
   width: 100%;
   height: auto;
+  padding-bottom: 5px;
 }
 
 .top-bar {
   background: #ffffff;
   border-bottom: 2px solid #eeeeee;
-  padding: 10px 15px 5px 15px;
+  padding: 10px 15px 5px 0;
 }
 
 .logo {
@@ -104,12 +115,11 @@ img {
   background: #ffffff;
   border-top: 2px solid #eeeeee;
   width: 100%;
+  height: 55px;
   display: flex;
   justify-content: space-between;
   position: absolute;
   bottom: 0;
-  padding: 7px 20px 3px 3px;
-  /*What is happening here? with padding right?*/
 }
 
 h1 {
@@ -123,17 +133,74 @@ h1 {
 
 .main-cup {
   width: 50%;
+  max-width: 180px;
   margin: auto;
   padding-top: 15px;
 }
 
 .nav-icon {
-  max-width: 25px;
-  margin: 5px;
+  margin: 5px 5px -5px 5px;
 }
 
-.center-icon {
-  /*padding-left: 20px;
-  padding-right: 30px;
-  display: inline;*/
+a > p {
+  font-size: 10px;
+  color: #433c96;
+  text-align: center;
+}
+
+.nav-icon > a > img {
+  max-width: 20px;
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+
+
+/*Self Care page*/
+
+
+button {
+  display: block;
+  border: none;
+  border-radius: 5px;
+  background-color: pink;
+  padding: 5px 10px 5px 10px;
+  width: 200px;
+  height: 40px;
+  box-shadow: none;
+  margin: auto;
+  margin-top: 8px;
+}
+
+.self-care-buttons {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/*Colors */
+
+.medium-purple {
+  color: #ffffff;
+  background-color: #8f82cf;
+}
+
+.dark-purple {
+  color: #ffffff;
+  background-color: #433c96;
+}
+
+.turqoise {
+  color: #ffffff;
+  background-color: #4aa9bf;
+}
+
+.blue {
+  color: #ffffff;
+  background-color: #3067ba;
+}
+
+.alternative-button {
+  color: #4aa9bf;
+  background-color: white;
+  border: 3px solid #4aa9bf;
+  border-radius: 0px;
 }
