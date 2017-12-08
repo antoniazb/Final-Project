@@ -204,3 +204,47 @@ button {
   border: 3px solid #4aa9bf;
   border-radius: 0px;
 }
+
+/*Connect page*/
+
+h2, h3 {
+  color: #433c96;
+  font-size: 20px;
+  text-align: center;
+}
+
+.description {
+  font-size: 11px;
+  text-align: justify;
+}
+
+.profile-pic {
+  border: 5px solid white;
+  border-radius: 100px;
+  width: 150px;
+  margin: auto;
+}
+
+/*Progress page*/
+
+ .scroll {
+   height: 430px;
+   overflow: scroll;
+ }
+
+ .number-of-days {
+   color: #8f82cf;
+   font-size: 50px;
+   background-color: white;
+   border-radius: 50px;
+   text-align: center;
+   width: 100px;
+   height: 100px;
+   margin: auto;
+   padding: 10px 20px 10px 20px;
+ }
+
+ hr {
+   border: 1px solid white;
+   color: white;
+ }
