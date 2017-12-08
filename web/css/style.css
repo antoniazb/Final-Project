@@ -3,7 +3,8 @@
 
 .browser-screen {
   background: white;
-  background-image: url("../images/blurry-purples.jpg");
+  /*background-image: url("../images/ripple.jpg");*/
+  background-size: cover;
   margin: 0px;
   height: 100vh;
 }
@@ -16,8 +17,7 @@
 .device-screen {
   margin: auto;
   position: relative;
-  /*background-image: url("../images/simple-wave.png");*/
-    background-image: url("../images/background-wave.jpg");
+  background-image: url("../images/simple-wave.png");
   background-size: cover;
 }
 
@@ -38,6 +38,7 @@
       padding-top: 20px;
       margin-top: 30px;
   }
+
   .device-screen {
       height: 503px;
       width: 285px;
@@ -78,8 +79,9 @@
 /*UI Content*/
 
 a {
-    color: white;
-    padding: 0 10px;
+    color: blue;
+    text-decoration: none;
+    font-size: 6px;
 }
 
 img {
@@ -88,16 +90,20 @@ img {
 }
 
 .top-bar {
-  height: 35px;
   background: #ffffff;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 2px solid #eeeeee;
+  padding: 10px 15px 5px 15px;
+}
+
+.logo {
+  width: 100px;
+  height: 33px;
 }
 
 .lower-bar {
   background: #ffffff;
-  border-top: 1px solid lightgray;
+  border-top: 2px solid #eeeeee;
   width: 100%;
-  height: 60px;
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -109,7 +115,7 @@ img {
 h1 {
   margin-bottom: 40px;
   margin-top: 20px;
-  color: #5536b6;
+  color: #433C96;
   font-size: 28px;
   text-align: center;
   font-family: 'Oxygen', sans-serif;
@@ -122,8 +128,8 @@ h1 {
 }
 
 .nav-icon {
-  width: 15%;
-  padding-top: 3px;
+  max-width: 25px;
+  margin: 5px;
 }
 
 .center-icon {
