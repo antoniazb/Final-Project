@@ -186,13 +186,17 @@ a > p {
   margin-top: 20px;
 }
 
-.time-option, .time-option-middle {
+.time-option, .time-option-middle, .time-option-active {
   display: inline;
   width: 30%;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   margin-top: 20px;
   padding: 5px;
+}
+
+.time-option-active {
+  background-color: #f3f4fb;
 }
 
 .time-option-middle {
