@@ -109,6 +109,7 @@ img {
 .logo {
   width: 100px;
   height: 33px;
+  margin-left: 5px;
 }
 
 .lower-bar {
@@ -249,6 +250,19 @@ h2, h3 {
    color: white;
  }
 
+ .journal-box {
+   border-radius: 5px;
+   background-color: #4aa9bf;
+   width: 100%;
+   padding: 20px 5px 5px 5px;
+ }
+
+ .journal-entry {
+   background-color: #ffffff;
+   padding: 5px 10px 0 10px;
+   border-bottom: 2px solid #eeeeee;
+ }
+
  /*Welcome*/
 
  .gradient-wave {
@@ -292,6 +306,7 @@ h2, h3 {
   text-decoration: none;
   color: #4aa9bf;
   font-size: 2em;
+
   position: absolute;
   bottom: 0;
   /*display: block;*/
@@ -335,14 +350,21 @@ a:hover {
   margin: 90px 60px 20px 60px;
 }
 
+.progress-circles-group {
+  display: block;
+  margin: 0 95px 0 95px;
+}
+
 .progress-circles {
-  /*display: flex;*/
-  /*justify-content: space-between;*/
-  margin: 0 80px 0 80px;
+  width: 100px;
+  /*display: flex;
+  justify-content: space-between;*/
+  /*margin: 0 80px 0 80px;*/
 }
 
 .progress-circles img {
   width: 15px;
   height: auto;
+  display: inline;
   margin: 3px;
 }
