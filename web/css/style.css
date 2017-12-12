@@ -181,6 +181,27 @@ a > p {
   margin-bottom: 10px;
 }
 
+.time-options {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.time-option, .time-option-middle {
+  display: inline;
+  width: 30%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.time-option-middle {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+
+
 /*Colors */
 
 .medium-purple {
