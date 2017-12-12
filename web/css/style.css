@@ -89,9 +89,9 @@
 /*UI Content*/
 
 a {
-    color: blue;
+    /*color: blue;*/
     text-decoration: none;
-    font-size: 6px;
+    /*font-size: 6px;*/
 }
 
 img {
@@ -159,17 +159,21 @@ a > p {
 /*Self Care page*/
 
 
-button {
+.button, button {
   display: block;
   border: none;
   border-radius: 5px;
-  background-color: pink;
-  padding: 5px 10px 5px 10px;
+  padding: 7px 10px 7px 10px;
   width: 200px;
   height: 40px;
   box-shadow: none;
   margin: auto;
   margin-top: 8px;
+  text-align: center;
+}
+
+.button:hover {
+  color: white;
 }
 
 .self-care-buttons {
@@ -203,7 +207,12 @@ button {
   color: #4aa9bf;
   background-color: white;
   border: 3px solid #4aa9bf;
+
   border-radius: 0px;
+}
+
+.alternative-button:hover {
+  color: #4aa9bf;
 }
 
 /*Connect page*/
@@ -226,7 +235,7 @@ h2, h3 {
   margin: 10px 50px 20px 50px;
 }
 
-/*Progress page*/
+/*Progress page and Meditate page*/
 
  .scroll {
    height: 430px;
@@ -259,7 +268,7 @@ h2, h3 {
 
  .journal-entry {
    background-color: #ffffff;
-   padding: 5px 10px 0 10px;
+   padding: 10px 10px 0 10px;
    border-bottom: 2px solid #eeeeee;
  }
 
@@ -305,7 +314,7 @@ h2, h3 {
   text-transform: uppercase;
   text-decoration: none;
   color: #4aa9bf;
-  font-size: 2em;
+  font-size: 12px;
 
   position: absolute;
   bottom: 0;
@@ -367,4 +376,61 @@ a:hover {
   height: auto;
   display: inline;
   margin: 3px;
+}
+
+/*Meditate page*/
+
+ .play-button {
+   padding: 100px 0 80px 0;
+   width: 130px;
+   margin: auto;
+ }
+
+
+ .progress-bar {
+   border: 1px solid #8f82df;
+   background-color: white;
+   height: 10px;
+   width: 250px;
+   margin: auto;
+ }
+
+ @keyframes FillFromLeft {
+   0% {
+     width: 10px;
+   }
+   100% {
+     width: 250px;
+   }
+ }
+
+ .progress {
+   border-radius: 0px;
+   background-color: #a2c2f2;
+   height: 100%;
+   animation: 16s ease-out FillFromLeft;
+ }
+
+/*Journal page*/
+
+textarea {
+  border: none;
+  width: 100%;
+  color: #444;
+}
+
+textarea:focus {
+  border: none;
+}
+
+.display-date {
+  /*padding: 3px;*/
+  border: 3px solid #8f82cf;
+  border-top: 5px solid #8f82cf;
+  background-color: white;
+  width: 65px;
+  margin-bottom: 10px;
+  color: #8f82cf;
+  text-align: center;
+  font-size: 12px;
 }
