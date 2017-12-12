@@ -328,16 +328,26 @@ h2, h3 {
   font-size: 16px;
 }
 
+.gradient-background-1 {
+  background-image: url(welcome-2-gradient.png);
+  background-size: cover;
+  height: 560px;
+  width: 100%;
+}
+
 .shout-out {
   font-size: 23px;
   padding-top: 15px;
+  max-width: 300px;
 }
 
 .shout-out-alt {
   color: white;
   font-size: 23px;
-  height: 240px;
+  /*height: 240px;*/
   padding: 150px 0 10px 0;
+  max-width: 350px;
+  margin: auto;
 }
 
 .instructions {
@@ -345,13 +355,16 @@ h2, h3 {
   text-decoration: none;
   color: #4aa9bf;
   font-size: 12px;
-
+  width: 100%;
   position: absolute;
   bottom: 0;
-  /*display: block;*/
-  text-align: center;
-  /*width: 100%;*/
-  margin: 0 40px 5px 40px;
+  display: flex;
+  margin-bottom: 20px;
+
+}
+
+.instructions p {
+  margin: auto;
 }
 
 .alt {
