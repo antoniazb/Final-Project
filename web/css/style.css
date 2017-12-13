@@ -10,6 +10,7 @@
 
 .device {
   background-image: url(../images/iphone.png);
+  background-repeat: no-repeat;
   margin: auto;
 }
 
@@ -132,6 +133,8 @@ h1 {
 
 .nav-icon {
   margin: 5px 5px -5px 5px;
+  display: inline;
+  float: left;
 }
 
 a > p {
