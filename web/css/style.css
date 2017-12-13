@@ -3,7 +3,6 @@
 
 .browser-screen {
   background: white;
-  /*background-image: url("../images/ripple.jpg");*/
   background-size: cover;
   margin: 0px;
   height: 100vh;
@@ -31,13 +30,6 @@
 
 @media (min-width: 600px) {
 
-  .browser-screen {
-    /*padding: 10px;*/
-    /*display: flex;*/
-    /*align-items: center;
-    justify-content: center;*/
-  }
-
   .device {
       height: 657px;
       width: 329px;
@@ -51,8 +43,6 @@
       border: 1px solid lightgray;
       border-radius: 3px;
       margin-top: 56px;
-      /*overflow: scroll;*/
-
   }
 
   .content {
